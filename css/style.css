@@ -1,0 +1,14 @@
+/* html * { */
+/*    font-family: 'Lato', sans-serif !important; */
+/* } */
+
+span.footer {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+}
+
+img {
+  border: none !important;
+  box-shadow: none !important;
+}

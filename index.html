@@ -7,7 +7,10 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="css/style.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -23,10 +26,146 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+          <div class="slides">
+            <section data-background-image="img/cover.png"></section>
+
+            <section>
+              <img src="img/me.jpg" style="position: absolute; top:0; left:0; max-width: 260px; max-height: 260px; border-radius: 50%">
+              <div style="position: absolute; top:0; left:300px; text-align: left;">
+                <h3>Diego Leite</h3>
+                <p>+/-∞ Engenharia de Computação</p>
+                <p><i class="fa fa-coffee"></i> Desenvolvedor de Software</p>
+                <p><i class="fa fa-heart"></i> JavaScript</p>
+                <p>@di3goleite</p>
+              </div>
+              <img style="padding-top: 350px;" src="img/companies.png">
+            </section>
+
+            <section>
+              <img src="img/tomba.jpg" height="600px">
+            </section>
+
+            <section data-background-image="img/team.png"></section>
+
+            <section>
+              <h2>Alpha</h2>
+              <img src="img/alpha.png">
+            </section>
+
+            <section>
+              <h2>Chegando ao Beta</h2>
+              <img src="img/cat.gif">
+            </section>
+
+            <section data-background-image="img/iot-1.png"></section>
+            <section data-background-image="img/iot-2.png"></section>
+
+            <section data-background-image="img/size-1.png"></section>
+            <section data-background-image="img/size-2.png"></section>
+            <section data-background-image="img/size-3.png"></section>
+            <section data-background-image="img/size-4.png"></section>
+            <section data-background-image="img/size-5.png"></section>
+
+            <section>
+              <img src="img/growth.jpg">
+            </section>
+
+            <section>
+              <img src="img/connect-all.png">
+            </section>
+
+            <section>
+              <img src="img/iot-wtf.jpg">
+            </section>
+
+            <section>
+              <img src="img/expected-revenue.jpg">
+            </section>
+
+            <section>
+              <img src="img/2022.jpg">
+            </section>
+
+            <section>
+              <h2>Destrancar a Porta</h2>
+              <img src="img/door.gif">
+            </section>
+
+            <section>
+              <h2>Ligar a TV</h2>
+              <img src="img/tv.gif">
+            </section>
+
+            <section>
+              <h2>Realizar Pagamentos</h2>
+              <img src="img/payment.gif">
+            </section>
+
+            <section>
+              <h2>Solicitar Atendimento</h2>
+              <img src="img/request.gif">
+            </section>
+
+            <section>
+              <h2>IoT Hoje</h2>
+              <img src="img/iot-messy.gif">
+            </section>
+
+            <section>
+              <img src="img/rodolfo-arduino.jpg" style="margin: 0px;">
+            </section>
+
+            <section data-background-image="img/matrix.jpg"></section>
+
+            <section>
+              <img src="img/matrix-sensors.png">
+            </section>
+
+            <section data-background-image="img/ifttt.jpg"></section>
+
+            <section>
+              <img src="img/phone.png">
+            </section>
+
+            <section>
+              <img src="img/now.png">
+            </section>
+
+            <section>
+              <img src="img/javascript.png">
+            </section>
+
+            <section>
+              <img src="img/kickstarter-indiegogo.png">
+            </section>
+
+            <section>
+              <img src="img/publications.png">
+            </section>
+
+            <section>
+              <img src="img/magpi.png">
+            </section>
+
+            <section>
+              <img src="img/creator-pi.gif">
+              </br>
+              creator.matrix.one
+            </section>
+
+            <section>
+              <h2>The Demo!   \o/</h2>
+              <img src="img/demo.gif">
+            </section>
+
+            <section data-background-image="img/obrigado.gif">
+              <h1 style="color: #FFFFFF; margin-top: 100px;">Obrigado!</h1>
+            </section>
+
+            <section>
+              <img src="img/devfsa.jpg">
+            </section>
+          </div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -37,6 +176,8 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+              controls: true,
+              progress: true,
               pubnubRemoteControl: {
                 publishKey: 'pub-c-b9b4ecf9-a07b-4176-a820-7adf6a20bb1d',
                 subscribeKey: 'sub-c-91201a38-425d-11e7-b66e-0619f8945a4f',
